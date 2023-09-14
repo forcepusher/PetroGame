@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    private const float TorquePerSecond = 500f;
+    private const float TorquePerSecond = 20000f;
     private const float MaximumAngularVelocity = 10f;
 
     private Rigidbody2D _rigidbody;
